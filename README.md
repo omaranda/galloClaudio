@@ -50,6 +50,8 @@ Configured in `.mcp.json` — give Claude direct access to your infrastructure:
 | AWS S3 | Browse and manage S3 buckets and objects |
 | AWS Core | Access AWS resources and services |
 | AWS Cost Explorer | Analyze and optimize AWS spending |
+| GitHub | Manage repos, issues, PRs, and code search |
+| Atlassian | Access Jira issues and Confluence pages |
 
 ---
 
@@ -84,6 +86,17 @@ export DATABASE_URL="postgresql://user:password@host:5432/dbname"
 # AWS access
 export AWS_PROFILE="your-aws-profile"
 export AWS_REGION="eu-central-1"
+
+# GitHub (requires a PAT with repo scope)
+export GITHUB_PERSONAL_ACCESS_TOKEN="ghp_..."
+
+# Atlassian / Jira / Confluence
+export JIRA_URL="https://your-domain.atlassian.net"
+export JIRA_USERNAME="your-email@example.com"
+export JIRA_API_TOKEN="your-jira-api-token"
+export CONFLUENCE_URL="https://your-domain.atlassian.net"
+export CONFLUENCE_USERNAME="your-email@example.com"
+export CONFLUENCE_API_TOKEN="your-confluence-api-token"
 ```
 
 ### Step 5 — Restart Claude Code
