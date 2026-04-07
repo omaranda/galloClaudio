@@ -1,20 +1,8 @@
 {
   "name": "gallo-claudio",
+  "description": "A team of AI specialists for conservation tech: data engineering, cloud infrastructure, ecological fieldwork, web development, and more. 16 specialist agents + 16 workflow commands.",
   "version": "1.1.0",
-  "description": "Specialized AI agents and workflow commands for full-stack development teams. Covers web development, data engineering, DevOps/AWS, data science, and Earth Observation / computer vision.",
   "author": {
     "name": "Omar Miranda"
-  },
-  "keywords": [
-    "remote-sensing",
-    "earth-observation",
-    "aws",
-    "django",
-    "camera-trap",
-    "birdnet",
-    "terraform",
-    "ansible",
-    "full-stack",
-    "devops"
-  ]
+  }
 }

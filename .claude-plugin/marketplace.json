@@ -1,0 +1,20 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "gallo-claudio-local",
+  "description": "Local marketplace for gallo-claudio plugin",
+  "owner": {
+    "name": "Omar Miranda",
+    "email": "omiranda@naturalstate.org"
+  },
+  "plugins": [
+    {
+      "name": "gallo-claudio",
+      "description": "A team of AI specialists for conservation tech.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/omaranda/gallo-claudio.git"
+      }
+    }
+  ]
+}
