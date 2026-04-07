@@ -1,7 +1,7 @@
 {
   "name": "gallo-claudio",
-  "description": "A team of AI specialists for conservation tech: data engineering, cloud infrastructure, ecological fieldwork, web development, and more. 16 specialist agents + 16 workflow commands.",
-  "version": "1.1.0",
+  "description": "A team of AI specialists for conservation tech: data engineering, cloud infrastructure, ecological fieldwork, web development, and more. 16 specialist agents + 21 workflow commands including Natural State collaborative session management.",
+  "version": "1.2.0",
   "author": {
     "name": "Omar Miranda"
   }
