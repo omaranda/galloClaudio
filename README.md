@@ -4,7 +4,7 @@ A [Claude Code](https://claude.ai/claude-code) plugin providing specialized AI a
 
 ## What's included
 
-### 15 Auto-Delegation Agents
+### 16 Auto-Delegation Agents
 
 Claude reads each agent's description and automatically routes work to the right specialist — no manual invocation needed.
 
@@ -22,6 +22,7 @@ Claude reads each agent's description and automatically routes work to the right
 | `databricks-specialist` | Delta Lake, Spark/PySpark, Unity Catalog, MLflow, DLT pipelines, Workflows |
 | `data-scientist` | ML models, Bayesian networks (PyMC), scikit-learn pipelines, model evaluation |
 | `eo-cv-specialist` | EO processing (GDAL/rasterio), camera traps (MegaDetector), BirdNET audio |
+| `gis-specialist` | GeoNode, QGIS, ArcGIS, PostGIS, web mapping, OGC services, cartography |
 
 **Domain advisor agents:**
 
